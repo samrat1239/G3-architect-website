@@ -9,48 +9,31 @@
   font-weight: 400;
   font-style: normal;
 }
-.display{
+/* shared styles */
+.display-flex{
     display: flex;
 }
-.navbar{
-    justify-content: space-between;
-    align-items: center;
-}
-.brand{
-    font-size: 700;
-    font-size: 2.8rem;
-}
-.nav-list{
+
+/* header style */
+
+
+
+/* navbar style */
+.nav-links{
     list-style: none;
+    gap: 12px;
 }
+.text-gray{
+
+    color: #424242;
+}
+.text-light-gray{
+
+}
+
 ul>li>a{
     text-decoration: none;
 }
-.nav-list{
-    display: flex;
-    gap: 25px;
-}
-.bg-light{
-    background-color: rgba(255, 144, 14, 0.10);
-}
-/* banner-style */
-.banner, .navbar{
-    /* max-width: 1440; */
-    margin: 0 auto;
-}
-.banner{
-    /* text-align: center; */
-}
-.banner-container{
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-}
-.banner-pn{
-    /* justify-content: center;
-    justify-items: center; */
-}
-.banner-title{
-    font-weight: 700;
-    font-size: 4rem;
+.nav-link{
+    font-weight: 500;
 }
