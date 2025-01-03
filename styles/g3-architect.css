@@ -13,10 +13,31 @@
 .display-flex{
     display: flex;
 }
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
 
+/* first-background-color */
+.primary-bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto ;
+}
 /* header style */
 
-
+.brand{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 /* navbar style */
 .nav-links{
@@ -28,6 +49,7 @@
     color: #424242;
 }
 .text-light-gray{
+    color: rgb(114, 114, 114);
 
 }
 
@@ -36,4 +58,270 @@ ul>li>a{
 }
 .nav-link{
     font-weight: 500;
+}
+/* banner style */
+.banner-content{
+    max-width: 760px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.banner-image{
+    width: 100%;
+}
+.primary-button{
+    /* position: absolute; */
+    width: 180px;
+    /* height: 50px; */
+    padding: 25px;
+    background-color:  rgb(255, 144, 14);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    
+}
+.banner-title{
+    color: rgb(19, 19, 19);
+/* font-family: Work Sans; */
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+.banner-details{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+/* main-styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    margin-top: 88px;
+}
+.section-1> .image-container>img{
+    max-width: 342px;
+    max-height: 342px;
+    border-radius: 8px;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.features{
+    align-items: center;
+    max-width: 540px;
+}
+/* love-enjoy */
+.passege{
+    position: absolute;
+width: 586px;
+height: 78px;
+color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+
+/* some-facts */
+.some-facts{
+    margin-top: 168px;
+}
+.fact{
+    box-sizing: border-box;
+    padding: 60px 20px;
+    border: 1px solid rgb(255, 144, 14);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+.fact-icon{
+    width: 45px;
+    height: 45px;
+}
+.fact-number{
+    color: rgb(66, 66, 66);
+/* font-family: Work Sans; */
+font-size: 25px;
+font-weight: 600;
+}
+.fact-name{
+    color: rgb(66, 66, 66);
+/* font-family: Work Sans; */
+font-size: 25px;
+font-weight: 600;
+
+}
+
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 125px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-feature{
+    display: flex;
+    gap: 146px;
+
+}
+.love{
+    margin-top: 170px;
+    padding: 54px;
+}
+.offacial{
+   background-color:  rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    width: 586px;
+    height: 171px;
+    padding: 25px 25px;
+    margin-top: 30px;
+
+}
+.title-enjoy{
+    height:105px;
+    width: 465px;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 39px 28px 24px 26px;
+}
+.title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    width: 251px;
+    height: 23px;
+    /* margin: 30px 260px 10px 35px; */
+    margin-bottom: 50px;
+}
+.elit{
+    width: 586px;
+    height: 78px;
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-image{
+    border-radius: 8px;
+background: url(successful-business-concept-businesswoman-are-smiling-standing-with-crossed-arms-office);
+width: 708px;
+padding: 92px;
+}
+.sponser{
+    max-width: 545px;
+    margin: 0 auto;
+    height: 130px;
+    align-items: center;
+    margin-top: 185px;
+}
+.sponser-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 35px 106px;
+}
+
+.sponser-detail{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+width: 542px;
+height: 52px;
+}
+.sponser-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 60px;
+    gap: 158px;
+}
+.footer{
+    display: flex;
+    max-width: 1440px;
+    height: 105px;
+    border-radius: 8px;
+    background-color:  rgb(255, 244, 231);
+    margin: 0 auto;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-title{
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    height: 23px;
+    width: 620px;
+    
+}
+
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-image-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /* section-feature */
+    .section-feature{
+        display: grid;
+        
+        grid-template-columns: repeat(1,fr);
+    }
+    .love{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .offacial-1{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        max-width: 300px;
+        /* margin: 0 auto; */
+    }
+    .offacial{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .offacial-2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 300px;
+        /* margin: 0 auto; */
+    }
 }
